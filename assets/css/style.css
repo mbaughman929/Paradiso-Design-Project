@@ -1,1 +1,54 @@
-nav 
+.full-width-banner {
+	/*background-color: green;*/
+	border: 2px solid black;
+	background-image: url('http://placehold.it/2000x550');
+}
+.slider img {
+	border: 1px solid black;
+	margin: 20% 0;
+}
+.slider h1, h2 {
+	margin: 18% 0 0 0;
+	text-align: center;
+}
+button {
+	position: absolute;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5%;
+	width: 100px;
+	height: 50px;
+}
+/* PORTFOLIO SECTION */
+.col-xs-2,
+.col-sm-2,
+.col-md-2,
+.col-lg-2 {
+	padding: 0;
+}
+
+/*CLASSES SECTION*/
+.classes {
+	border: 1px solid silver;
+	height: 450px;
+	background-color: yellow;
+}
+/*RESOURCES SECTION*/ 
+.resources {
+	text-align: center;
+	margin: 35px 0;
+}
+
+/*CONTACT BANNER*/
+.contact-banner {
+	height: 250px;
+	background-color: blue;
+	text-align: center;
+}
+/*MAP*/
+.map {
+	height: 400px;
+	background-color: green;
+}
