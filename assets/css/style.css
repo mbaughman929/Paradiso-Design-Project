@@ -1,3 +1,6 @@
+/** {
+	border: 1px solid blue;
+}*/
 .full-width-banner {
 	/*background-color: green;*/
 	border: 2px solid black;
@@ -11,7 +14,7 @@
 	margin: 18% 0 0 0;
 	text-align: center;
 }
-button {
+.full-width-banner button {
 	position: absolute;
     left:0;
     right:0;
@@ -41,14 +44,41 @@ button {
 	margin: 35px 0;
 }
 
-/*CONTACT BANNER*/
+/*CONTACT SECTION*/
 .contact-banner {
 	height: 250px;
 	background-color: blue;
 	text-align: center;
 }
+/*.vertical-line {
+	border-right: 1px solid silver;
+}*/
+form {
+	margin-top: 10%;
+}
+
+.contact-form .glyphicon {
+	/*display: inline-block;*/
+	border-radius: 100%;
+	padding: 20px;
+	color: green;
+	font-size: 60px;
+	border: 2px solid green;
+	margin-left: 10%;
+/*	margin-bottom: 5%;*/
+	margin-top: 7%;
+}
+.contact-text {
+	display: inline-block;
+	vertical-align: top;
+	color: green;
+	font-size: 50px;
+	margin-left: 2%;
+	margin-top: 8%;
+}
 /*MAP*/
 .map {
 	height: 400px;
 	background-color: green;
+	margin-top: 5%;
 }
